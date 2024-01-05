@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7A558BC2B47C27900E009A2 /* Sisyphus_tooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A558BB2B47C27900E009A2 /* Sisyphus_tooApp.swift */; };
+		E7A558BE2B47C27900E009A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A558BD2B47C27900E009A2 /* ContentView.swift */; };
+		E7A558C02B47C27B00E009A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A558BF2B47C27B00E009A2 /* Assets.xcassets */; };
+		E7A558C32B47C27B00E009A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A558C22B47C27B00E009A2 /* Preview Assets.xcassets */; };
+		E7A558CD2B47C27B00E009A2 /* Sisyphus_tooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A558CC2B47C27B00E009A2 /* Sisyphus_tooTests.swift */; };
+		E7A558D72B47C27B00E009A2 /* Sisyphus_tooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A558D62B47C27B00E009A2 /* Sisyphus_tooUITests.swift */; };
+		E7A558D92B47C27C00E009A2 /* Sisyphus_tooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A558D82B47C27C00E009A2 /* Sisyphus_tooUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7A558C92B47C27B00E009A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A558B02B47C27900E009A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A558B72B47C27900E009A2;
+			remoteInfo = "Sisyphus too";
+		};
+		E7A558D32B47C27B00E009A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A558B02B47C27900E009A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A558B72B47C27900E009A2;
+			remoteInfo = "Sisyphus too";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7A558B82B47C27900E009A2 /* Sisyphus too.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sisyphus too.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A558BB2B47C27900E009A2 /* Sisyphus_tooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sisyphus_tooApp.swift; sourceTree = "<group>"; };
+		E7A558BD2B47C27900E009A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7A558BF2B47C27B00E009A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7A558C22B47C27B00E009A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7A558C82B47C27B00E009A2 /* Sisyphus tooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sisyphus tooTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A558CC2B47C27B00E009A2 /* Sisyphus_tooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sisyphus_tooTests.swift; sourceTree = "<group>"; };
+		E7A558D22B47C27B00E009A2 /* Sisyphus tooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sisyphus tooUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A558D62B47C27B00E009A2 /* Sisyphus_tooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sisyphus_tooUITests.swift; sourceTree = "<group>"; };
+		E7A558D82B47C27C00E009A2 /* Sisyphus_tooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sisyphus_tooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7A558B52B47C27900E009A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A558C52B47C27B00E009A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A558CF2B47C27B00E009A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7A558AF2B47C27900E009A2 = {
+			isa = PBXGroup;
+			children = (
+				E7A558BA2B47C27900E009A2 /* Sisyphus too */,
+				E7A558CB2B47C27B00E009A2 /* Sisyphus tooTests */,
+				E7A558D52B47C27B00E009A2 /* Sisyphus tooUITests */,
+				E7A558B92B47C27900E009A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7A558B92B47C27900E009A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A558B82B47C27900E009A2 /* Sisyphus too.app */,
+				E7A558C82B47C27B00E009A2 /* Sisyphus tooTests.xctest */,
+				E7A558D22B47C27B00E009A2 /* Sisyphus tooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7A558BA2B47C27900E009A2 /* Sisyphus too */ = {
+			isa = PBXGroup;
+			children = (
+				E7A558BB2B47C27900E009A2 /* Sisyphus_tooApp.swift */,
+				E7A558BD2B47C27900E009A2 /* ContentView.swift */,
+				E7A558BF2B47C27B00E009A2 /* Assets.xcassets */,
+				E7A558C12B47C27B00E009A2 /* Preview Content */,
+			);
+			path = "Sisyphus too";
+			sourceTree = "<group>";
+		};
+		E7A558C12B47C27B00E009A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7A558C22B47C27B00E009A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7A558CB2B47C27B00E009A2 /* Sisyphus tooTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A558CC2B47C27B00E009A2 /* Sisyphus_tooTests.swift */,
+			);
+			path = "Sisyphus tooTests";
+			sourceTree = "<group>";
+		};
+		E7A558D52B47C27B00E009A2 /* Sisyphus tooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A558D62B47C27B00E009A2 /* Sisyphus_tooUITests.swift */,
+				E7A558D82B47C27C00E009A2 /* Sisyphus_tooUITestsLaunchTests.swift */,
+			);
+			path = "Sisyphus tooUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7A558B72B47C27900E009A2 /* Sisyphus too */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A558DC2B47C27C00E009A2 /* Build configuration list for PBXNativeTarget "Sisyphus too" */;
+			buildPhases = (
+				E7A558B42B47C27900E009A2 /* Sources */,
+				E7A558B52B47C27900E009A2 /* Frameworks */,
+				E7A558B62B47C27900E009A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sisyphus too";
+			productName = "Sisyphus too";
+			productReference = E7A558B82B47C27900E009A2 /* Sisyphus too.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7A558C72B47C27B00E009A2 /* Sisyphus tooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A558DF2B47C27C00E009A2 /* Build configuration list for PBXNativeTarget "Sisyphus tooTests" */;
+			buildPhases = (
+				E7A558C42B47C27B00E009A2 /* Sources */,
+				E7A558C52B47C27B00E009A2 /* Frameworks */,
+				E7A558C62B47C27B00E009A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A558CA2B47C27B00E009A2 /* PBXTargetDependency */,
+			);
+			name = "Sisyphus tooTests";
+			productName = "Sisyphus tooTests";
+			productReference = E7A558C82B47C27B00E009A2 /* Sisyphus tooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7A558D12B47C27B00E009A2 /* Sisyphus tooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A558E22B47C27C00E009A2 /* Build configuration list for PBXNativeTarget "Sisyphus tooUITests" */;
+			buildPhases = (
+				E7A558CE2B47C27B00E009A2 /* Sources */,
+				E7A558CF2B47C27B00E009A2 /* Frameworks */,
+				E7A558D02B47C27B00E009A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A558D42B47C27B00E009A2 /* PBXTargetDependency */,
+			);
+			name = "Sisyphus tooUITests";
+			productName = "Sisyphus tooUITests";
+			productReference = E7A558D22B47C27B00E009A2 /* Sisyphus tooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7A558B02B47C27900E009A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7A558B72B47C27900E009A2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E7A558C72B47C27B00E009A2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7A558B72B47C27900E009A2;
+					};
+					E7A558D12B47C27B00E009A2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7A558B72B47C27900E009A2;
+					};
+				};
+			};
+			buildConfigurationList = E7A558B32B47C27900E009A2 /* Build configuration list for PBXProject "Sisyphus too" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7A558AF2B47C27900E009A2;
+			productRefGroup = E7A558B92B47C27900E009A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7A558B72B47C27900E009A2 /* Sisyphus too */,
+				E7A558C72B47C27B00E009A2 /* Sisyphus tooTests */,
+				E7A558D12B47C27B00E009A2 /* Sisyphus tooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7A558B62B47C27900E009A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A558C32B47C27B00E009A2 /* Preview Assets.xcassets in Resources */,
+				E7A558C02B47C27B00E009A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A558C62B47C27B00E009A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A558D02B47C27B00E009A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7A558B42B47C27900E009A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A558BE2B47C27900E009A2 /* ContentView.swift in Sources */,
+				E7A558BC2B47C27900E009A2 /* Sisyphus_tooApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A558C42B47C27B00E009A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A558CD2B47C27B00E009A2 /* Sisyphus_tooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A558CE2B47C27B00E009A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A558D72B47C27B00E009A2 /* Sisyphus_tooUITests.swift in Sources */,
+				E7A558D92B47C27C00E009A2 /* Sisyphus_tooUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7A558CA2B47C27B00E009A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A558B72B47C27900E009A2 /* Sisyphus too */;
+			targetProxy = E7A558C92B47C27B00E009A2 /* PBXContainerItemProxy */;
+		};
+		E7A558D42B47C27B00E009A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A558B72B47C27900E009A2 /* Sisyphus too */;
+			targetProxy = E7A558D32B47C27B00E009A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7A558DA2B47C27C00E009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7A558DB2B47C27C00E009A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7A558DD2B47C27C00E009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sisyphus too/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dana-Mizuguchi.Sisyphus-too";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7A558DE2B47C27C00E009A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sisyphus too/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dana-Mizuguchi.Sisyphus-too";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7A558E02B47C27C00E009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dana-Mizuguchi.Sisyphus-tooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisyphus too.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sisyphus too";
+			};
+			name = Debug;
+		};
+		E7A558E12B47C27C00E009A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dana-Mizuguchi.Sisyphus-tooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisyphus too.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sisyphus too";
+			};
+			name = Release;
+		};
+		E7A558E32B47C27C00E009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dana-Mizuguchi.Sisyphus-tooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sisyphus too";
+			};
+			name = Debug;
+		};
+		E7A558E42B47C27C00E009A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dana-Mizuguchi.Sisyphus-tooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sisyphus too";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7A558B32B47C27900E009A2 /* Build configuration list for PBXProject "Sisyphus too" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A558DA2B47C27C00E009A2 /* Debug */,
+				E7A558DB2B47C27C00E009A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A558DC2B47C27C00E009A2 /* Build configuration list for PBXNativeTarget "Sisyphus too" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A558DD2B47C27C00E009A2 /* Debug */,
+				E7A558DE2B47C27C00E009A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A558DF2B47C27C00E009A2 /* Build configuration list for PBXNativeTarget "Sisyphus tooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A558E02B47C27C00E009A2 /* Debug */,
+				E7A558E12B47C27C00E009A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A558E22B47C27C00E009A2 /* Build configuration list for PBXNativeTarget "Sisyphus tooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A558E32B47C27C00E009A2 /* Debug */,
+				E7A558E42B47C27C00E009A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7A558B02B47C27900E009A2 /* Project object */;
+}
